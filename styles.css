@@ -1,0 +1,40 @@
+body {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* y-axis, necesita un height por ejemplo 100 vh (coje todo el alto) */
+  align-items: center; /* x-axis */
+  /* height: 100vh; */
+  min-height: 100vh;
+  background-color: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+}
+main {
+  width: 256px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid transparent;
+}
+main img {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  /* height: 256px;
+  width: 256px;
+  object-fit: cover; */
+  max-width: 100% 
+}
+main h1 {
+  font-size: 1.13rem;
+  padding: 0 10px;
+  text-align: center;
+  font-weight: 700;
+  text-size-adjust: inherit;
+}
+main p {
+  font-size: 0.811rem;
+  padding: 0 15px;
+  text-align: center;
+  font-weight: 400;
+  /* text-size-adjust: inherit; */
+  color: #7b879d;
+}

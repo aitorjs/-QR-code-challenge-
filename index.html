@@ -5,56 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
-  <style>
-    body {
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;  /* y-axis, necesita un height por ejemplo 100 vh (coje todo el alto) */
-      align-items: center; /* x-axis */ 
-      height: 100vh;
-      background-color: #d6e2f0;
-      font-family: 'Outfit', sans-serif;
-    }
-
-    .container { 
-      width:256px;
-      border-radius: 15px;
-      padding:10px;
-      background-color: #fff;
-      border: 2px solid transparent;
-    }
-    .container img {
-      border: 2px solid transparent;
-      border-radius: 15px;
-      height:256px;
-      width: 256px;
-      object-fit: cover;
-    }
-    .container h1 {
-      font-size: 18px;
-      padding: 0 10px;
-      text-align: center;
-      font-weight: 700;
-      text-size-adjust: inherit;
-    }
-    .container p {
-      font-size: 13px;
-      padding: 0 15px;
-      text-align: center;
-      font-weight: 400;
-      text-size-adjust: inherit;
-      color: #7b879d;
-
-    }     
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
  </head>
 <body>
-      <div class="container">
-          <img src="./images/image-qr-code.png" alt=""/>
-          <h1>Improve your front-end skills by building projects</h1>     
-          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </div>
-
-  </body>
+  <main>
+    <img src="./images/image-qr-code.png" alt="QR code to frontendmentor.io"/>
+    <h1>Improve your front-end skills by building projects</h1>     
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
+</body>
 </html>
