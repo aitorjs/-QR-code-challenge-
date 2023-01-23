@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Roboto", sans-serif;
+        background-color: hsl(215, 46%, 89%);
+      }
+
+      .container {
+        width: 280px;
+        text-align: center;
+        /*  margin: auto; */
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      .container img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        width: 260px;
+        height: 260px;
+       /*  margin: auto; */
+        border-radius: 8px;
+        /* overflow: hidden; */
+      }
+
+      .container h3 {
+        font-weight: 700;
+      }
+
+      .container p {
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+        padding: 10px 19px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/image-qr-code.png" alt="" />
+      <h3>Improve your front-end skills by building projects.</h3>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="">Md Alqma Ansari</a>.
+    </footer> -->
+  </body>
+</html>
